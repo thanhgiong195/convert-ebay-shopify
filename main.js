@@ -113,7 +113,7 @@ ipcMain.on('handle-convert', async (event, filepath) => {
   dialog
     .showSaveDialog({
       title: 'Select the File Path to save',
-      defaultPath: path.join(__dirname, '../assets/sample.txt'),
+      defaultPath: path.join(__dirname, '../assets/shopify-product-import.csv'),
       buttonLabel: 'Save',
       filters: [
         {
